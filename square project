@@ -1,0 +1,21 @@
+from turtle import *
+showturtle()
+shape("turtle")
+
+def square(l,k):
+    color(k)
+    for i in range(4):
+        forward(l)
+        right(90)
+
+for j in range(5):
+    square(50,"blue")
+    penup()
+    forward(75)
+    pendown()
+    
+    
+square()
+    
+hideturtle()
+done()
